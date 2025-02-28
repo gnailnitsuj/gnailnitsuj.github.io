@@ -1,0 +1,25 @@
+body {
+    background-color: bisque;
+}
+
+h1 {
+    font-family: monospace;
+    text-align: center;
+}
+
+h2 {
+    font-family: monospace;
+}
+
+ul {
+    list-style-type: square;
+    font-family: monospace;
+}
+
+label {
+    font-family: monospace;
+}
+
+button {
+    font-family: monospace;
+}
