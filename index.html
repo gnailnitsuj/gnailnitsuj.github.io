@@ -13,24 +13,86 @@
   </head>
   <body>
     <div>
-    <h1>Movie Repository</h1>
+    <h1>Movie Log</h1>
     </div>
     <div>
-    <h2>List of Movies</h2>
-    <label for = "addmovies">Add Movies:</label>
-    <input type = "text">
-    <button type = "button">Add </button>
+    <h2>List of Current Movies:</h2><br>
     <ul>
         <li>John Wick [Action]</li>
         <li>Despicable Me [Comedy]</li>
         <li>Oppenheimer [Drama]</li>
         <li>Titanic [Romance]</li>
         <li>Get Out [Horror]</li>
+        <hr>
     </ul>
     </div>
-    <div>
+        <h3> Personal Movie Log</h3><br>
+        <table>
+          <tr>
+          <th width = 500> Title </th>
+          <th width = 500> Genre </th>
+          <th width = 500> Studio </th>
+          <th width = 500> Status </th>
+          <th width = 500> Rating </th>
+          </tr>
+
+          <tr>
+          <td> <input type = "text" id = "user_input"> </td>
+          <td> <input type = "text" id = "user_input"> </td>
+          <td> <input type = "text" id = "user_input"> </td>
+          <td> 
+            <select> 
+              <option> To Watch </option>
+              <option> Watching </option>
+              <option> Watched </option>
+            </select> 
+          </td>
+          <td> <input type = "text" id = "user_input"> /10 </td>
+          </tr>
+
+          <tr>
+          <td> <input type = "text" id = "user_input"> </td>
+          <td> <input type = "text" id = "user_input"> </td>
+          <td> <input type = "text" id = "user_input"> </td>
+          <td>  
+            <select> 
+              <option> To Watch </option>
+              <option> Watching </option>
+              <option> Watched </option>
+            </select> 
+          </td>
+          <td> <input type = "text" id = "user_input"> /10 </td>
+          </tr>
+
+          <tr>
+          <td> <input type = "text" id = "user_input"> </td>
+          <td> <input type = "text" id = "user_input"> </td>
+          <td> <input type = "text" id = "user_input"> </td>
+          <td>  
+            <select> 
+              <option> To Watch </option>
+              <option> Watching </option>
+              <option> Watched </option>
+            </select> 
+          </td>
+          <td> 
+            <div class = "rating">
+            <input type = "text" id = "user_input"> /10 </td>
+            </div>
+          </tr>
+            
+
+        </table>
+
+        <label for = "addmovies">Add Movies:</label>
+        <input type = "text" id = "user_input">
+        <button id = "button1">Add</button>
+        <ul class = "output" id = "output1">
+        </ul>
+        <script src="script.js"></script>
         
-    </div>
+
+
 
 
     
