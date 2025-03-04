@@ -1,5 +1,6 @@
 body {
-    background-color: bisque;
+    background-color: wheat;
+    font-family: monospace;
 }
 
 h1 {
@@ -39,4 +40,31 @@ td {
 
 input {
     background-color: antiquewhite;
+}
+
+h5 {
+    font-family: monospace;
+}
+
+.navbar ul {
+    list-style-type: none;
+    background-color: antiquewhite;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar a {
+    color:black;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+}
+
+.navbar a:hover {
+    background-color: darkgray;
+}
+
+.navbar li {
+    float: left;
 }
